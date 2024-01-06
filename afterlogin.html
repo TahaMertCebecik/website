@@ -9,6 +9,45 @@
 </head>
 
 <body>
+    <header>
+        <div id="user-info"></div>
+    </header>
+ 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        #user-info {
+            color:black;
+            margin-left: auto;
+            font-size: large;
+            margin-left: 40rem;
+        }
+    </style>
+    
     <header class="header">
         <a href="#" class="logo">
             <img src="images/dou.png" alt="Doğuş Medya">
@@ -19,7 +58,8 @@
             <a href="product.html">Products</a>
             <a href="contact.html">Contact</a>
             <a href="singout.html">Singout</a>
-            <h2>Welcome, <span th:text="${username}"></span>!</h2>
+            <div id="user-info">Welcome Deniz Ural!</div>
+            
          </nav>
         <div class="buttons">
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
