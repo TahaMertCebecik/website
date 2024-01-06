@@ -50,14 +50,25 @@
 </head>
 <body>
     <div class="container">
-        <form id="loginForm">
+        <form id="loginForm" onsubmit="return redirectToAnotherPage();">
             <h2>Login</h2>
-            <label for="loginUsername">Email address:</label>
+            <label for="loginUsername">Username:</label>
             <input type="text" id="loginUsername" name="loginUsername" required>
             <label for="loginPassword">Password:</label>
             <input type="password" id="loginPassword" name="loginPassword" required>
             <button type="submit">Login</button>
         </form>
     </div>
+
+    <script>
+        function redirectToAnotherPage() {
+            // Burada başka bir sayfaya yönlendirme işlemi yapabilirsiniz.
+            // Örneğin, window.location.href kullanarak:
+            window.location.href = "afterlogin.html";
+
+            // Formun submit işleminin gerçekleşmemesi için false döndürüyoruz.
+            return false;
+        }
+    </script>
 </body>
 </html>
