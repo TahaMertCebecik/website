@@ -214,6 +214,9 @@ a{
         padding: 1rem 0;
         color: yellow;
     }
+    #menu-btn{
+        display: none;
+    }
 
     /*! header end */
 
@@ -411,4 +414,17 @@ a{
     }
 
 
+
     /*! footer end */
+    @media (max-width:991px){
+        html{
+            font-size: 55%;
+        }
+        .header{
+            padding: 1.5rem 2 rem;
+        }
+        .header .logo img{
+            height: 7rem;
+        }
+    }
+

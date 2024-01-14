@@ -14,3 +14,17 @@ cartBtn.addEventListener("click",function(){
 
     });
 });
+// Düğmeye tıklandığında dropdown menüsünü kontrol et
+document.getElementById("menuBtn").addEventListener("click", function() {
+    var dropdownContent = document.getElementById("dropdownContent");
+    // Eğer görünürse, gizle; değilse görünür yap
+    dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+});
+
+// Sayfa herhangi bir yerine tıklanırsa dropdown menüsünü gizle
+document.addEventListener("click", function(event) {
+    var dropdownContent = document.getElementById("dropdownContent");
+    if (event.target !== document.getElementById("menuBtn") && event.target.closest("#dropdownContent") !== dropdownContent) {
+        dropdownContent.style.display = "none";
+    }
+});

@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Doğuş Medya Web Site</title>
-    <link rel="stylesheet" href="styles/stylee.css" />
+    <link rel="stylesheet" href="styles/style.css"/>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+
 </head>
 
 <body>
@@ -19,39 +18,338 @@
             <img src="images/dou.png" alt="Doğuş Medya">
         </a>
         <nav class="navbar">
-            <a href="index.html" class="active">WATCH NOW</a>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="product.html">Products</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Singup</a>
+            <a href="RateUs.html">RateUs</a>
+            
+        </nav>
+    
+        <div class="buttons">
+         
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-cart-shopping"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            </button>
+            <button id="menuBtn"><i class="fas fa-bars"></i></button>
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="product.html">Products</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Login</a>
+                <a href="signup.html">Singup</a>
+                <a href="RateUs.html">RateUs</a>
+            </div>
+        </div>
+        
+        <div class="cart-items-container active">
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/blaclist.png" alt="menu" />
+            <div class="content">
+                <h3>Blaclist</h3>
+                <div class="price">$49.99/-</div>
+            </div>
+
+           </div>
+           <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/twd.png" alt="menu" />
+            <div class="content">
+                <h3>The Walking Dead</h3>
+                <div class="price">$74.99/-</div>
+            </div>
            
+               
+
+           </div>
+           <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/bb9.png" alt="menu" />
+            <div class="content">
+                <h3>B99</h3>
+                <div class="price">$14.00/-</div>
+            </div>
+           
+               
+
+           </div>
+           <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/breaking bad.png" alt="menu" />
+            <div class="content">
+                <h3>Breaking Bad</h3>
+                <div class="price">$34.99/-</div>
+            </div>
+           
+               
+
+           </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+        <style>
+            /* Temel stillendirme */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+/* Dropdown içeriği gizli */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    margin-left: 6rem;
+}
+
+/* Dropdown içeriği link stil */
+.dropdown-content a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hover efekti */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+        </style>
+      
+          
+        
+    </header>
       
     </header>
+    <!--! header section end -->
 
+    <!--! home section start -->
+    <section class="home">
+        <div class="content"> <h3>EXPRESS HOME DELIVERY</h3>
+            <p>İstediğiniz filmleri anında izleyebilmeniz için size iki seçenek sunuyoruz: Filmleri süresiz satın alabilir veya kiralayabilirsiniz. Geniş katalogumuz içinden favorilerinizi seçerek istediğiniz zaman ve yerde keyifli bir film deneyimi yaşayabilirsiniz. Sınırsız eğlenceye hemen ulaşın! </p>
+            <a href="#" class="btn">ORDER NOW</a></div>
+    </section>
 
-    <div class="slider">
-        <div class="slide active">
-            <div class="inner">
-                <h1>Forgetton Forest 1 WATCH NOW!</h1>
-                <p>In the forgotten town of Blackvale, a cursed music box awakens ancient terrors. As its eerie melody plays, shadows come to life, tormenting anyone who hears. A group of unsuspecting friends must unravel the box's dark secret before the town succumbs to eternal darkness. "Ephemeral Fears" is a pulse-pounding race against time, where every whisper could be their last.</p>
-            </div>
+    <!--! home section end -->
+     <!--! menu section start -->
+     <section class="menu">
+        <h1 class="heading">our <span>menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box=head">
+                    <img src="images/twd.png" alt="menu"/>
+                    <span class="menu-category">Bilim Kurgu</span>
+                    <h3>The Walking Dead</h3>
+                    <div class="price">$74.99<span>$99.99</span></div>
+                    <div class="box-bottom">
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                
+                
+                
+        
         </div>
-        <div class="slide">
-            <div class="inner">
-                <h1>Karate Kid WATCH NOW!</h1>
-                <p>The Karate Kid" is a classic coming-of-age martial arts film that follows the journey of Daniel LaRusso, a teenager uprooted to a new town. Bullied by his peers, Daniel finds an unlikely mentor in Mr. Miyagi, the maintenance man in his apartment complex. Miyagi, a master of karate, imparts not only martial arts skills but also valuable life lessons to Daniel. As he trains for a karate tournament, Daniel discovers courage, friendship, and the true essence of discipline. The film is a timeless tale of resilience and self-discovery, capturing the heart and spirit of martial arts.</p>
+                </div>
+                <div class="box">
+                    <div class="box=head">
+                        <img src="images/vikings.png" alt="menu"/>
+                        <span class="menu-category">Savaş</span>
+                        <h3>Vikings</h3>
+                        <div class="price">$34.99<span>$99.99</span></div>
+                        <div class="box-bottom">
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    
+                    
+                    
+            
             </div>
+                    </div>
+                    <div class="box">
+                        <div class="box=head">
+                            <img src="images/ucuz roman.png" alt="menu"/>
+                            <span class="menu-category">Dram</span>
+                            <h3>Ucuz Roman</h3>
+                            <div class="price">$19.99<span>$99.99</span></div>
+                            <div class="box-bottom">
+                                <a href="#" class="btn">add to cart</a>
+                            </div>
+                        
+                        
+                        
+                
+                </div>
+                        </div>
+                        <div class="box">
+                            <div class="box=head">
+                                <img src="images/blaclist.png" alt="menu"/>
+                                <span class="menu-category">Polisiye</span>
+                                <h3>Blacklist</h3>
+                                <div class="price">$49.99<span>$99.99</span></div>
+                                <div class="box-bottom">
+                                    <a href="#" class="btn">add to cart</a>
+                                </div>
+                            
+                            
+                            
+                    
+                    </div>
+                            </div>
+
+            
+                
+        
         </div>
-        <div class="slide">
-            <div class="inner">
-                <h1>Transformers WATCH NOW!</h1>
-                <p>Transformers" is a high-octane sci-fi action film that revolves around the age-old battle between two factions of alien robots – the Autobots and the Decepticons. Disguised as everyday vehicles and machines, these sentient beings bring their war to Earth, with humanity caught in the crossfire. The fate of the planet rests on the shoulders of teenager Sam Witwicky, who discovers a vital piece of information sought by both robotic factions. Packed with breathtaking CGI, intense battles, and a blend of humor, the film delivers a rollercoaster ride of epic proportions, bringing the iconic Transformers franchise to life on the big screen.</p>
+                </div>
+
             </div>
-        </div>
+       
+    
+</div>
+    
     </div>
-    <div class="indicators">
-        <button id="prev"><i class="fas fa-angle-left"></i></button>
-        <button id="next"><i class="fas fa-angle-right"></i></button>
-    </div>
-    <script src="js/scriptt.js"></script>
+            
+        </div>
+     </section>
 
+
+      <!--! menu section end -->
+
+      <!--! products section start -->
+      <section class="products">
+        <h1 class="heading">our <span>Products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">KOMEDİ</span>
+                    <a href="#" class="name">Friends</a>
+                </div>
+                <div class="image">
+                    <img src="images/friends.png" alt="" />
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$24.00</b>      
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">KOMEDİ</span>
+                    <a href="#" class="name">B99</a>
+                </div>
+                <div class="image">
+                    <img src="images/bb9.png" alt="" />
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$14.00</b>      
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Dram</span>
+                    <a href="#" class="name">Breaking Bad</a>
+                </div>
+                <div class="image">
+                    <img src="images/breaking bad.png" alt="" />
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$34.99</b>      
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+                </div>
+            </div>
+            
+        </div>
+      </section>
+
+      <!--! products section end -->
+
+      <!--! contact us section start -->
+      <section class="contact">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        <div class="row">
+            <iframe class="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12044.321188399053!2d29.167411029338844!3d41.00161566055716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac7f63b1068af%3A0xd2bca6ca8c60ef84!2zRG_En3XFnyDDnG5pdmVyc2l0ZXNp!5e0!3m2!1str!2str!4v1703276311608!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <h3>Get in touch</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="name" />
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="email address" />
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="phone number" />
+                </div>
+                <input type="submit" class="btn" value="contact now">
+            </form>
+        </div>
+        
+      </section>
+
+
+
+
+      <!--! contact section end -->
+
+      <!--! footer section start -->
+      <section class="footer">
+        <div class="share">
+            <a href="https://www.linkedin.com/in/taha-mert-cebecik-0624b7200/" class="fab fa-linkedin"></a>
+            <a href="https://www.linkedin.com/in/denizural9/" class="fab fa-linkedin"></a>
+            <a href="https://www.linkedin.com/in/muhammet-ali-karaderili-566ab3200/" class="fab fa-linkedin"></a>
+        </div>
+        <div class="creater-name">
+            <p>Created by Taha Mert Cebecik - Deniz Ural - Muhammet Karaderili</p>
+            
+
+        </div>
+
+      </section>
+      <!--! footer section end -->
+      <script src="js/script.js"></script>
 
 </body>
-
 </html>

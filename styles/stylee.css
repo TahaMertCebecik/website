@@ -79,6 +79,7 @@ button:focus{outline: 0;}
     position:sticky;
     top: 0;
     z-index: 1000;
+    
 }
 .header .navbar a{
     margin:0 1rem;
@@ -98,6 +99,7 @@ button:focus{outline: 0;}
     background-color: transparent;
 
 }
+
 
 .header .cart-items-container{
     position: absolute;
@@ -135,7 +137,7 @@ button:focus{outline: 0;}
 
 }
 .header .cart-items-container .cart-item img{
-    height: 7rem;
+   height: 7rem;
     
 }
 .header .cart-items-container .cart-item .content h3{
@@ -159,3 +161,4 @@ button:focus{outline: 0;}
 .header #menu-btn{
     display: none;
 }
+
