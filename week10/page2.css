@@ -1,0 +1,29 @@
+#boxDiv {
+    width: 100px;
+    height: 100px;
+    border: 1px solid cadetblue;
+    background-color: cornflowerblue;
+    margin: 10px;
+    text-align: center;
+}
+
+#boxDiv.selected {
+    background-color: rgb(0, 37, 105);
+    color: cornsilk;
+}
+
+#closeDiv {
+    width: 100px;
+    height: 100px;
+    border: 1px solid cadetblue;
+    background-color: cornflowerblue;
+    margin: 10px;
+    border-radius: 100%;
+    position: relative;
+}
+
+#closeDiv span{
+    position: absolute;
+    /*top: 20px;
+    left: 20px;*/
+}
